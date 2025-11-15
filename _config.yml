@@ -1,0 +1,9 @@
+title: "ESRC NIA – PROTO-GOV / PROTO-AAM"
+description: "Governing Autonomous Air Mobility: ESRC New Investigator Award"
+theme: minima
+collections:
+  pages:
+    output: true
+markdown: kramdown
+plugins:
+  - jekyll-feed
