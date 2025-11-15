@@ -1,0 +1,162 @@
+# ESRC NIA Proposal Data - Sectioned Format
+
+project:
+  title: "Governing Autonomous Air Mobility"
+  subtitle: "Understanding and Enabling Governance Formation in Proto-Ecosystems"
+  award_type: "ESRC New Investigator Award"
+  duration: "40 months"
+  start_date: "June 2026"
+
+vision: |
+  Autonomous Air Mobility (AAM) is a national priority for the UK, supported by the Future of Flight Action Plan, the Airspace Modernisation Strategy (AMS) and emerging regulatory frameworks such as CAP 722C and the BVLOS Delivery Model (CAP 3182). These documents emphasise the need for safe, scalable and publicly legitimate AAM services, particularly in medical logistics, emergency response and time-critical delivery. However, the governance infrastructures required to align safety, scalability and legitimacy remain underdeveloped.
+  
+  Technical progress has outpaced institutional readiness: while BVLOS testbeds demonstrate functional capability, the governance practices shaping these operations are provisional, fragmented and weakly institutionalised. The core problem is clear and bounded: the UK cannot responsibly scale autonomous air mobility because the governance infrastructures required to justify decisions, coordinate actors and ensure accountability do not yet exist in coherent, tested or institutionally legitimate form.
+  
+  The vision of this project is to develop a robust, evidence-based understanding of how governance takes shape in the formative stages of AAM ecosystems and to translate this understanding into a minimal set of reusable governance mechanisms that strengthen organisational capability and support evidence-based policy development.
+
+aim: "To develop a process-relational theory of governance formation in proto-AAM ecosystems, grounded in empirical analysis of BVLOS operations, and to translate this understanding into validated governance mechanisms that enhance safety, scalability and legitimacy in the UK AAM sector."
+
+objectives:
+  - code: "O1"
+    title: "Evidence"
+    description: "Generate high-quality empirical evidence on governance formation in live BVLOS settings."
+  - code: "O2"
+    title: "Conceptualisation"
+    description: "Develop a process theory identifying mechanisms of coordination, justification and accountability."
+  - code: "O3"
+    title: "Translation"
+    description: "Co-design and validate three governance mechanisms with operators and intermediaries."
+  - code: "O4"
+    title: "Uptake"
+    description: "Support adoption through targeted capability development and policy engagement."
+
+context: |
+  The UK Future of Flight Action Plan and the AMS set out an ambition for routine BVLOS operations and integrated AAM services by the late 2020s. These frameworks highlight the need for governance arrangements that ensure safe, efficient and legitimate deployment of autonomous systems.
+  
+  In current AAM contexts:
+  • Roles and responsibilities are fragmented across operators, regulators, local authorities and software providers.
+  • Decision justification is often tacit and undocumented.
+  • Data-sharing practices vary across organisations, reducing traceability and auditability.
+  • Algorithmic decision systems introduce opacity and complicate accountability.
+  • Trial learning rarely consolidates into durable governance structures.
+
+knowledge_gap: |
+  Existing ecosystem governance research provides frameworks for managing ecosystem emergence and evolution but implicitly assumes some degree of institutional structure. Institutional theory explains persistence and change once institutions exist but offers limited insight into their genesis under conditions of institutional incompleteness.
+  
+  The knowledge gap concerns how governance and legitimacy arise in proto-ecosystems—settings where authority is distributed across human and algorithmic actors; coordination relies on provisional artefacts; and governance is enacted through episodic practices rather than formal rules.
+
+conceptual_framework:
+  constructs:
+    - name: "Sociomaterial Practices"
+      description: "Micro-level interactions involving human judgement, algorithmic outputs, surveillance data, operational protocols and artefact engagement."
+    - name: "Relational Infrastructures"
+      description: "Dynamic alignments of actors, algorithms, artefacts and justificatory routines that temporarily stabilise coordination and accountability without formal institutional support."
+    - name: "Justificatory Practices"
+      description: "Five modalities are central: rational-economic, political-strategic, moral-ethical, epistemic and procedural. These practices anchor relational infrastructures by linking operational choices to broader norms and expectations."
+
+methodology:
+  design: "Longitudinal, qualitative, abductive"
+  setting: "Controlled Living Laboratory (CLL) embedded at OD-RIC"
+  phases:
+    - name: "Phase 1: Discovery (WP1)"
+      activities: "Literature synthesis, stakeholder interviews, mapping of provisional governance artefacts, baseline episode identification."
+    - name: "Phase 2: Mechanism Modelling (WP2)"
+      activities: "Abductive analysis traces sociomaterial interactions over time, identifying underlying mechanisms."
+    - name: "Phase 3: Co-Design and Validation (WP3)"
+      activities: "With BMT, SkyBound Rescuer and ARPAS-UK, validate three governance mechanisms."
+    - name: "Phase 4: Translation (WP4)"
+      activities: "Outputs are refined, documented and communicated through policy briefings and academic dissemination."
+
+work_packages:
+  - code: "WP1"
+    title: "Discovery"
+    period: "Months 1-12"
+    lead: "PI"
+    objectives: "Establish baseline understanding and map provisional governance practices."
+    activities: "Literature review; stakeholder interviews; episode mapping; artefact analysis."
+    deliverables: "Evidence report; baseline dataset; initial episode typology."
+  - code: "WP2"
+    title: "Mechanism Modelling"
+    period: "Months 12-24"
+    lead: "RIA"
+    objectives: "Identify mechanisms linking sociomaterial practices and justificatory logics."
+    activities: "Episodic tracing; abductive analysis; cross-case synthesis."
+    deliverables: "Mechanism catalogue; conceptual synthesis."
+  - code: "WP3"
+    title: "Co-Design & Validation"
+    period: "Months 18-30"
+    lead: "PcL"
+    objectives: "Co-develop operationally viable governance mechanisms with partners."
+    activities: "Workshops; walkthroughs; validation trials; adjustments."
+    deliverables: "Three validated governance mechanisms."
+  - code: "WP4"
+    title: "Translation"
+    period: "Months 24-36"
+    lead: "PI"
+    objectives: "Support adoption and inform policy guidance."
+    activities: "Capability-building workshops; policy briefings; academic dissemination."
+    deliverables: "Short briefs for CAA/DfT; training materials; two peer-reviewed publications."
+
+outputs:
+  - code: "O1"
+    title: "Drone Trilemma article + Governance Episode Vignettes"
+  - code: "O2"
+    title: "Governance Toolkit & Methods Guide"
+  - code: "O3"
+    title: "Executive Report + Drone Futures exhibition assets"
+  - code: "O4"
+    title: "White Paper + Journal Paper 2 + UKDS dataset + Methods Note"
+
+outcomes:
+  short_term:
+    - "A1: Conceptual clarity"
+    - "E1: Analytic capability uplift"
+    - "P1: Improved documentation and evidential standards"
+  mid_term:
+    - "A2: Validated mechanisms"
+    - "E2: Toolkit adoption"
+    - "S1: Improved coordination routines"
+  late:
+    - "S2: Positioned for institutional embedding and policy relevance"
+  legacy:
+    - "L1: Policy continuation via partners"
+    - "L2: Embedding working group"
+    - "L3: Teaching integration"
+    - "L4: UKDS open data assets"
+
+impact:
+  conceptual: "New process-relational theory of governance formation in proto-ecosystems."
+  capacity_building: "Adoption of three governance mechanisms strengthening organisational capability."
+  instrumental: "Evidence contributions to CAP 722C and AMS through time-of-need engagement."
+
+risks:
+  - name: "Access variability"
+    mitigation: "Artefact redundancy"
+  - name: "Episode scarcity"
+    mitigation: "Breakdown-case triangulation"
+  - name: "Organisational variability"
+    mitigation: "Co-interpretation"
+  - name: "Policy window shift"
+    mitigation: "Time-of-need translation"
+  - name: "Legacy drift"
+    mitigation: "UKDS deposition + partner ownership"
+
+team:
+  - role: "PI"
+    fte: 0.23
+    responsibilities: "Intellectual leadership across all cycles"
+  - role: "PcL"
+    fte: 0.10
+    responsibilities: "Leads embedding and KE3"
+  - role: "RIA"
+    fte: 1.0
+    responsibilities: "Core mechanism modelling"
+  - role: "Technician"
+    fte: 0.10
+    responsibilities: "Data governance integrity"
+
+partners:
+  - "BMT / OD-RIC"
+  - "ARPAS-UK"
+  - "Cambridge Digital Innovation"
+  - "SkyBound Rescuer"
