@@ -1,0 +1,213 @@
+# ESRC NIA Truth Table - Alignment Grid
+
+truth_table:
+  - section: "Vision"
+    line: "National AAM context and policy framework"
+    criteria: ["V", "I", "ENV"]
+    risk: "green"
+    notes: "Clear policy alignment with Future of Flight, AMS, CAP 722C"
+  
+  - section: "Vision"
+    line: "Governance gap identification"
+    criteria: ["V", "O"]
+    risk: "green"
+    notes: "Problem statement is bounded and evidence-based"
+  
+  - section: "Vision"
+    line: "Impact framing (conceptual, capacity, instrumental)"
+    criteria: ["I"]
+    risk: "green"
+    notes: "ESRC-aligned, no overclaiming"
+  
+  - section: "Aim"
+    line: "Process-relational theory development"
+    criteria: ["O", "R"]
+    risk: "green"
+    notes: "Original theoretical contribution"
+  
+  - section: "Objectives"
+    line: "O1-O4 evidence, theory, translation, uptake"
+    criteria: ["O", "R", "I"]
+    risk: "green"
+    notes: "Clear, measurable, feasible"
+  
+  - section: "Context"
+    line: "Current AAM operational challenges"
+    criteria: ["V", "R"]
+    risk: "green"
+    notes: "Well-documented and policy-relevant"
+  
+  - section: "Knowledge Gap"
+    line: "Proto-ecosystem governance theory gap"
+    criteria: ["O", "R"]
+    risk: "green"
+    notes: "Novel and significant gap identified"
+  
+  - section: "Conceptual Framework"
+    line: "Sociomaterial practices"
+    criteria: ["O", "R"]
+    risk: "green"
+    notes: "Theoretically sophisticated"
+  
+  - section: "Conceptual Framework"
+    line: "Relational infrastructures"
+    criteria: ["O", "R"]
+    risk: "green"
+    notes: "Original extension of infrastructure literature"
+  
+  - section: "Conceptual Framework"
+    line: "Justificatory practices"
+    criteria: ["O", "R"]
+    risk: "green"
+    notes: "Links to legitimacy theory"
+  
+  - section: "Methodology"
+    line: "Controlled Living Laboratory (CLL) design"
+    criteria: ["R", "F"]
+    risk: "green"
+    notes: "Rigorous and feasible"
+  
+  - section: "Methodology"
+    line: "Abductive mechanism modelling"
+    criteria: ["R", "O"]
+    risk: "green"
+    notes: "Appropriate for theory-building"
+  
+  - section: "Methodology"
+    line: "Four-phase design"
+    criteria: ["R", "F"]
+    risk: "green"
+    notes: "Logical progression"
+  
+  - section: "Work Packages"
+    line: "WP1 Discovery"
+    criteria: ["R", "F"]
+    risk: "green"
+    notes: "Clear baseline establishment"
+  
+  - section: "Work Packages"
+    line: "WP2 Mechanism Modelling"
+    criteria: ["R", "O"]
+    risk: "green"
+    notes: "Core analytical phase"
+  
+  - section: "Work Packages"
+    line: "WP3 Co-Design & Validation"
+    criteria: ["R", "I", "F"]
+    risk: "green"
+    notes: "Stakeholder engagement built-in"
+  
+  - section: "Work Packages"
+    line: "WP4 Translation"
+    criteria: ["I", "D"]
+    risk: "green"
+    notes: "Clear impact pathway"
+  
+  - section: "Outputs"
+    line: "O1 Drone Trilemma article"
+    criteria: ["O", "D"]
+    risk: "green"
+    notes: "Academic output"
+  
+  - section: "Outputs"
+    line: "O2 Governance Toolkit"
+    criteria: ["I", "D"]
+    risk: "green"
+    notes: "Practitioner-facing"
+  
+  - section: "Outputs"
+    line: "O3 Executive Report + Exhibition"
+    criteria: ["I", "D"]
+    risk: "green"
+    notes: "Public engagement"
+  
+  - section: "Outputs"
+    line: "O4 White Paper + UKDS dataset"
+    criteria: ["I", "D"]
+    risk: "green"
+    notes: "Policy and data legacy"
+  
+  - section: "Outcomes"
+    line: "Short-term: A1/E1/P1"
+    criteria: ["I"]
+    risk: "green"
+    notes: "Conceptual and capability uplift"
+  
+  - section: "Outcomes"
+    line: "Mid-term: A2/E2/S1"
+    criteria: ["I"]
+    risk: "green"
+    notes: "Adoption and coordination improvement"
+  
+  - section: "Outcomes"
+    line: "Late: S2 positioning"
+    criteria: ["I"]
+    risk: "green"
+    notes: "Appropriate language (positioned for, not causal)"
+  
+  - section: "Outcomes"
+    line: "Legacy: L1-L4"
+    criteria: ["I", "D"]
+    risk: "green"
+    notes: "Sustainable impact mechanisms"
+  
+  - section: "Impact"
+    line: "Conceptual impact"
+    criteria: ["I", "O"]
+    risk: "green"
+    notes: "New theory contribution"
+  
+  - section: "Impact"
+    line: "Capacity-building impact"
+    criteria: ["I"]
+    risk: "green"
+    notes: "ESRC-aligned"
+  
+  - section: "Impact"
+    line: "Instrumental impact"
+    criteria: ["I"]
+    risk: "green"
+    notes: "Time-of-need engagement, no overclaiming"
+  
+  - section: "Risks"
+    line: "Five risks with mitigations"
+    criteria: ["F"]
+    risk: "green"
+    notes: "Comprehensive and realistic"
+  
+  - section: "Team"
+    line: "PI 0.23 FTE leadership"
+    criteria: ["F", "D"]
+    risk: "green"
+    notes: "Demonstrates independence"
+  
+  - section: "Team"
+    line: "RIA 1.0 FTE core analysis"
+    criteria: ["F"]
+    risk: "green"
+    notes: "Appropriate resourcing"
+  
+  - section: "Team"
+    line: "PcL and Technician support"
+    criteria: ["F"]
+    risk: "green"
+    notes: "Targeted expertise"
+  
+  - section: "Partners"
+    line: "BMT/OD-RIC, ARPAS-UK, CDI, SkyBound"
+    criteria: ["F", "I", "ENV"]
+    risk: "green"
+    notes: "Strong partnerships, LOIs in place"
+
+# Criteria Key:
+# O = Originality
+# R = Research Design & Methods
+# F = Feasibility
+# I = Impact
+# D = Development (for NIA)
+# ENV = Environment & Support
+
+# Risk Categories:
+# green = Aligned, no issues
+# amber = Minor concerns, addressable
+# red = Significant issues requiring revision
