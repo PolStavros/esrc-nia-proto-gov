@@ -1,9 +1,82 @@
-title: "ESRC NIA – PROTO-GOV / PROTO-AAM"
-description: "Governing Autonomous Air Mobility: ESRC New Investigator Award"
+# ESRC NIA - Proto-Institutional Governance of Advanced Air Mobility
+# Version: v5.4 (Canonical, No-Simulation)
+
+title: "Governing Autonomous Air Mobility"
+description: "ESRC New Investigator Award: Understanding governance formation in proto-AAM ecosystems"
+baseurl: ""
+url: "https://polstavros.github.io/esrc-nia-proto-gov"
+
+# Theme and appearance
 theme: minima
+markdown: kramdown
+highlighter: rouge
+
+# Site metadata
+author:
+  name: "Dr. Pol Stavros"
+  email: "pol.stavros@rhul.ac.uk"
+  institution: "Royal Holloway, University of London"
+
+# Project metadata
+project:
+  version: "v5.4"
+  award_type: "ESRC New Investigator Award"
+  duration: "40 months"
+  start_date: "June 2026"
+  partners:
+    - BMT Group
+    - Cambridge Digital Innovation
+    - ARPAS-UK
+    - SkyBound Rescuer
+
+# Collections
 collections:
   pages:
     output: true
-markdown: kramdown
+    permalink: /:path/
+
+# Build settings
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - README.md
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "Dr. Pol Stavros"
+
+# Navigation
+header_pages:
+  - index.md
+  - vision.md
+  - approach.md
+  - outputs-outcomes.md
+  - workpackages.md
+  - impact.md
+  - truth-table.md
+
+# Social links (optional)
+social_links:
+  github: PolStavros
+  twitter: polstavros
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Show excerpts
+show_excerpts: true      
