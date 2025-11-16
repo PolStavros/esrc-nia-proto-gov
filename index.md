@@ -1,158 +1,134 @@
 ---
 layout: default
-title: "ESRC NIA Proposal"
+title: Home
+nav_order: 1
 ---
 
-# {{ site.data.nia_proposal.project.title }}
-## {{ site.data.nia_proposal.project.subtitle }}
+# Governing Autonomous Air Mobility
 
-**{{ site.data.nia_proposal.project.award_type }}**  
-**Duration:** {{ site.data.nia_proposal.project.duration }}  
-**Start Date:** {{ site.data.nia_proposal.project.start_date }}
-
----
-
-## Vision
-
-{{ site.data.nia_proposal.vision }}
+**ESRC New Investigator Award - Proto-Institutional Governance of Advanced Air Mobility**
 
 ---
 
-## Aim
+## Project Overview
 
-{{ site.data.nia_proposal.aim }}
+**Version:** v5.4 (Canonical, No-Simulation)  
+**Award Type:** ESRC New Investigator Award  
+**Duration:** 40 months (June 2026 - October 2029)  
+**PI:** Dr. Pol Stavros, Royal Holloway, University of London
 
----
+### Research Question
 
-## Objectives
+How is governance accomplished in early AAM/BVLOS operations, where actors rely on dynamic actor-artefact-algorithm-rule configurations to coordinate safely and legitimately?
 
-{% for obj in site.data.nia_proposal.objectives %}
-### {{ obj.code }}: {{ obj.title }}
-{{ obj.description }}
-{% endfor %}
+### Core Problem
 
----
-
-## Context
-
-{{ site.data.nia_proposal.context }}
+UK AAM deployment faces a **governance trilemma**—balancing innovation velocity, public safety, and democratic accountability. Current approaches lack mechanism-level understanding of cross-actor dependencies, practice-tested toolkits, and evidence linking governance choices to sector outcomes.
 
 ---
 
-## Knowledge Gap
+## Key Outputs & Outcomes
 
-{{ site.data.nia_proposal.knowledge_gap }}
+### Outputs (O1-O4)
 
----
+| Output | Description | Milestone |
+|--------|-------------|----------|
+| **O1** | AAM Governance Trilemma - Journal Paper 1 | M12 |
+| **O2** | Governance Toolkit & Methods Guide | M24 |
+| **O3** | Executive Report + Drone Futures Exhibition | M32 |
+| **O4** | Journal Paper 2 + Policy Brief + UKDS Dataset | M40 |
 
-## Conceptual Framework
+### Outcomes
 
-{% for construct in site.data.nia_proposal.conceptual_framework.constructs %}
-### {{ construct.name }}
-{{ construct.description }}
-{% endfor %}
+**Short-term (0-18m)**
+- **A1**: Improved conceptual understanding
+- **E1**: Enhanced cross-sector capacity
 
----
+**Mid-term (18-36m)**
+- **A2**: Validated adaptive governance models
+- **E2**: Early partner uptake
 
-## Methodology
-
-**Design:** {{ site.data.nia_proposal.methodology.design }}  
-**Setting:** {{ site.data.nia_proposal.methodology.setting }}
-
-### Research Phases
-
-{% for phase in site.data.nia_proposal.methodology.phases %}
-#### {{ phase.name }}
-{{ phase.activities }}
-{% endfor %}
+**Late-term (36-40m+)**
+- **A3**: Consolidated theory
+- **E3**: Policy-relevant insights
 
 ---
 
 ## Work Packages
 
-{% for wp in site.data.nia_proposal.work_packages %}
-### {{ wp.code }}: {{ wp.title }} ({{ wp.period }})
+### WP1: Governance Episodes & Mechanisms (M1-12)
+**Lead:** PI | **Output:** O1 | **Outcome:** A1
 
-**Lead:** {{ wp.lead }}  
-**Objectives:** {{ wp.objectives }}
+Construct rich governance episodes from live BVLOS operations at OD-RIC/BMT SPARO using three-layer coding.
 
-**Activities:** {{ wp.activities }}
+### WP2: Toolkit Encoding (M12-24)
+**Lead:** RIA (1.0 FTE) | **Output:** O2 | **Outcome:** E1
 
-**Deliverables:** {{ wp.deliverables }}
-{% endfor %}
+Translate mechanisms into practical toolkit: responsibility maps, justificatory logs, data-flow templates.
 
----
+### WP3: Evaluation & Validation (M18-32)
+**Lead:** PI, PcL (0.10 FTE) | **Output:** O3 | **Outcomes:** A2, E2
 
-## Outputs
+Validate through partner trials, breakdown analysis, and Drone Futures exhibition.
 
-{% for output in site.data.nia_proposal.outputs %}
-- **{{ output.code }}:** {{ output.title }}
-{% endfor %}
+### WP4: Translation & Legacy (M32-40)
+**Lead:** PI, PcL | **Output:** O4 | **Outcomes:** A3, E3
 
----
-
-## Outcomes
-
-### Short-Term Outcomes
-{% for outcome in site.data.nia_proposal.outcomes.short_term %}
-- {{ outcome }}
-{% endfor %}
-
-### Mid-Term Outcomes
-{% for outcome in site.data.nia_proposal.outcomes.mid_term %}
-- {{ outcome }}
-{% endfor %}
-
-### Late Outcomes
-{% for outcome in site.data.nia_proposal.outcomes.late %}
-- {{ outcome }}
-{% endfor %}
-
-### Legacy
-{% for legacy in site.data.nia_proposal.outcomes.legacy %}
-- {{ legacy }}
-{% endfor %}
+Synthesize into policy formats. Prepare FAIR datasets for UKDS/ReShare.
 
 ---
 
-## Impact
+## Project Partners
 
-**Conceptual Impact:**  
-{{ site.data.nia_proposal.impact.conceptual }}
-
-**Capacity-Building Impact:**  
-{{ site.data.nia_proposal.impact.capacity_building }}
-
-**Instrumental Impact:**  
-{{ site.data.nia_proposal.impact.instrumental }}
+- **BMT Group** - SPARO BVLOS platform (£40k in-kind)
+- **Cambridge Digital Innovation** - Knowledge translation (£2k in-kind)
+- **ARPAS-UK** - Sector engagement (£3k in-kind)
+- **SkyBound Rescuer** - Emergency services context
 
 ---
 
-## Risks and Mitigations
+## Theory of Change
 
-{% for risk in site.data.nia_proposal.risks %}
-- **{{ risk.name }}:** {{ risk.mitigation }}
-{% endfor %}
+**IF** rich governance episodes constructed (WP1)  
+**AND** mechanisms encoded into toolkit (WP2)  
+**AND** validated through trials + evaluation (WP3)  
+**AND** translated into policy formats (WP4)
 
----
-
-## Team
-
-{% for member in site.data.nia_proposal.team %}
-- **{{ member.role }}** ({{ member.fte }} FTE): {{ member.responsibilities }}
-{% endfor %}
+**THEN** stakeholders gain validated governance options  
+**LEADING TO** sector legitimacy & translation readiness  
+**ENABLING** responsible AAM deployment (3-10 years post-award)
 
 ---
 
-## Partners
+## Documentation
 
-{% for partner in site.data.nia_proposal.partners %}
-- {{ partner }}
-{% endfor %}
+- [Vision](vision) - Project vision and objectives
+- [Approach](approach) - Research design and methodology
+- [Outputs & Outcomes](outputs-outcomes) - Detailed mapping
+- [Work Packages](workpackages) - Complete WP descriptions
+- [Impact & KE](impact) - Knowledge exchange pathways
+- [Truth Table](truth-table) - ESRC assessment criteria
 
 ---
 
-## Navigation
+## Research Environment
 
-- [View Truth Table](/truth-table.html)
-- [View on GitHub](https://github.com/PolStavros/esrc-nia-proto-gov)
+**Omnidrome Research & Innovation Centre (OD-RIC)**  
+Royal Holloway, University of London
+
+CAA-registered controlled living laboratory providing access to operational BVLOS observations. All technical operations by BMT; ESRC supports governance analysis only.
+
+---
+
+## Contact
+
+**Dr. Pol Stavros**  
+Royal Holloway, University of London  
+Email: pol.stavros@rhul.ac.uk  
+GitHub: [@PolStavros](https://github.com/PolStavros)
+
+---
+
+*This site documents the ESRC New Investigator Award project "Governing Autonomous Air Mobility: Understanding and Enabling Governance Formation in Proto-Ecosystems."*
+
+*All content aligned to architecturechain_canonical, UKRI/ESRC TFS format, and v5.4 no-simulation methods.*
